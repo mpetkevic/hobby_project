@@ -1,15 +1,15 @@
 {
-  "main.css": "/hobby_craft/static/css/main.156fdc69.chunk.css",
-  "main.js": "/hobby_craft/static/js/main.2465f853.chunk.js",
-  "main.js.map": "/hobby_craft/static/js/main.2465f853.chunk.js.map",
-  "runtime~main.js": "/hobby_craft/static/js/runtime~main.a446c92d.js",
-  "runtime~main.js.map": "/hobby_craft/static/js/runtime~main.a446c92d.js.map",
-  "static/css/2.3908bb5c.chunk.css": "/hobby_craft/static/css/2.3908bb5c.chunk.css",
-  "static/js/2.3d28c304.chunk.js": "/hobby_craft/static/js/2.3d28c304.chunk.js",
-  "static/js/2.3d28c304.chunk.js.map": "/hobby_craft/static/js/2.3d28c304.chunk.js.map",
-  "index.html": "/hobby_craft/index.html",
-  "precache-manifest.d090f226e9eaaa2a1b8693ab5805949b.js": "/hobby_craft/precache-manifest.d090f226e9eaaa2a1b8693ab5805949b.js",
-  "service-worker.js": "/hobby_craft/service-worker.js",
-  "static/css/2.3908bb5c.chunk.css.map": "/hobby_craft/static/css/2.3908bb5c.chunk.css.map",
-  "static/css/main.156fdc69.chunk.css.map": "/hobby_craft/static/css/main.156fdc69.chunk.css.map"
+  "main.css": "/hobby_project/static/css/main.156fdc69.chunk.css",
+  "main.js": "/hobby_project/static/js/main.7fa17044.chunk.js",
+  "main.js.map": "/hobby_project/static/js/main.7fa17044.chunk.js.map",
+  "runtime~main.js": "/hobby_project/static/js/runtime~main.0cacbdea.js",
+  "runtime~main.js.map": "/hobby_project/static/js/runtime~main.0cacbdea.js.map",
+  "static/css/2.3908bb5c.chunk.css": "/hobby_project/static/css/2.3908bb5c.chunk.css",
+  "static/js/2.3d28c304.chunk.js": "/hobby_project/static/js/2.3d28c304.chunk.js",
+  "static/js/2.3d28c304.chunk.js.map": "/hobby_project/static/js/2.3d28c304.chunk.js.map",
+  "index.html": "/hobby_project/index.html",
+  "precache-manifest.08adbfaab37c00fcd38edef5af9e928c.js": "/hobby_project/precache-manifest.08adbfaab37c00fcd38edef5af9e928c.js",
+  "service-worker.js": "/hobby_project/service-worker.js",
+  "static/css/2.3908bb5c.chunk.css.map": "/hobby_project/static/css/2.3908bb5c.chunk.css.map",
+  "static/css/main.156fdc69.chunk.css.map": "/hobby_project/static/css/main.156fdc69.chunk.css.map"
 }
