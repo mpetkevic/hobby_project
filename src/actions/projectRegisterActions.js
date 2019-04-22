@@ -1,18 +1,16 @@
-import * as types from '../actions/types';
+import * as types from './types';
 
-const initialState = {
-  username: '',
-  hobbyName: '',
-  email: '',
-  description: '',
-  amount: '',
-  projectEndDate: '',
-  error: ''
+export function onInputChange(e) {
+  return {
+    type: types.PROJECT_REGISTER_FORM_INPUT_CHANGE,
+    name: e.target.name,
+    value: e.target.value
+  }
 }
 
-export default (state = initialState, action) => {
-  switch (action.type) {
-    default:
-      return state;
+export function onDateChange(date) {
+  return {
+    type: types.PROJECT_REGISTER_DATE_CHANGE,
+    date
   }
 }

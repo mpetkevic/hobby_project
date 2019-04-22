@@ -16,7 +16,7 @@ export default (state = initialState, action) => {
     case types.LOGIN_FORM_ERROR:
       return {...state, error: action.error, loading:false};
     case types.LOGIN_FORM_SUCCESS:
-      return {...state, loading:false};
+      return {...state, email: '', password: '', loading:false};
     default:
       return state;
   }

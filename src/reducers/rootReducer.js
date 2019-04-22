@@ -5,7 +5,7 @@ import projectRegisterReducer from './projectRegisterReducer';
 
 const rootReducer = combineReducers({
   login: loginReducer,
-  registerReducer: registerReducer,
+  register: registerReducer,
   projectRegister: projectRegisterReducer
 })
 
