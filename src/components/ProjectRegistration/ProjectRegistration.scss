@@ -24,7 +24,19 @@
     box-sizing: border-box;
   }
 
-  button {
+  .react-datepicker-wrapper {
+    width: 100%;
+
+    .react-datepicker__input-container {
+      width: 100%;
+    }
+
+    .calendar__head {
+      background-color: #FF690E;
+    }
+  }
+
+  .form-submit {
     margin: 0 auto;
     display: block;
     padding: 8px;
