@@ -53,3 +53,15 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .ProjectForm {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .ProjectForm {
+    width: 90%;
+  }
+}

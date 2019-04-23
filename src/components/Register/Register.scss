@@ -41,3 +41,15 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .Register {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .Register {
+    width: 90%;
+  }
+}
