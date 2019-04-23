@@ -64,13 +64,13 @@ class ProjectRegistration extends Component {
             rows="5"
             value={description}
             onChange={onInputChange}
-            placeholder='Please describe yours hobby'/>
+            placeholder='Please describe your hobby'/>
           <input
             type="number"
             name='amount'
             value={amount}
             onChange={onInputChange}
-            placeholder='Please enter amount for yours needs'/>
+            placeholder='Please enter amount for your needs'/>
           <button className="form-submit" type="submit">
             {loading ? <Loader color={'#fff'} h={15} /> : 'Place your hobby'}
           </button>

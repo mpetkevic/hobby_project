@@ -31,13 +31,13 @@ class Login extends Component {
             name='email'
             value={email}
             onChange={onInputChange}
-            placeholder='Please enter yours email'/>
+            placeholder='Please enter your email'/>
           <input
             type="password"
             name='password'
             value={password}
             onChange={onInputChange}
-            placeholder='Please enter yours password'/>
+            placeholder='Please enter your password'/>
           <button type="submit">
             {loading ? <Loader color={'#fff'} h={15} /> : 'Sign In'}
           </button>
