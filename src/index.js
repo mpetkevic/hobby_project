@@ -7,6 +7,17 @@ import rootReducer from './reducers/rootReducer';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import axios from 'axios';
+
+axios.defaults.headers.post['Content-Type'] = 'application/json'
+
+axios.interceptors.request.use(request => {
+  return request;
+})
+
+axios.interceptors.request.use(response => {
+  return response;
+})
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 

@@ -28,7 +28,7 @@ export function onProjectRegisterFormError(error) {
   }
 }
 
-export function onProjectRegisterFormSubmit(projectInfo, history) {
+export function onProjectRegisterFormSubmit(projectInfo) {
   return {
     type: types.PROJECT_REGISTER_FORM_SUCCESS,
     projectInfo
