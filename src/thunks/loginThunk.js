@@ -6,5 +6,7 @@ export const onFormSubmit = (user, history) => (dispatch) => {
     return dispatch(actions.onLoginFormError('Please fill fields'));
   }
   dispatch(actions.onLoginFormSuccess(user));
+  console.log("Login");
+  console.log(user)
   history.push('/');
 }
