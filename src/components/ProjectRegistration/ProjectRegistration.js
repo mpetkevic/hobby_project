@@ -46,6 +46,13 @@ class ProjectRegistration extends Component {
             value={hobbyName}
             onChange={onInputChange}
             placeholder='Please enter your hobby name'/>
+          <DatePicker
+            onChange={onDateChange}
+            selected={endDate}
+            placeholderText="Select project end date"
+            dateFormat="yyyy MM dd"
+            minDate={new Date()}
+          />
           <input
             type="email"
             name='email'
@@ -64,15 +71,8 @@ class ProjectRegistration extends Component {
             value={amount}
             onChange={onInputChange}
             placeholder='Please enter amount for yours needs'/>
-          <DatePicker
-            onChange={onDateChange}
-            selected={endDate}
-            placeholderText="Select project end date"
-            dateFormat="yyyy MM dd"
-            minDate={new Date()}
-          />
           <button className="form-submit" type="submit">
-            {loading ? <Loader color={'#fff'} h={15} /> : 'Sign In'}
+            {loading ? <Loader color={'#fff'} h={15} /> : 'Place your hobby'}
           </button>
         </form>
       </div>

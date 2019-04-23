@@ -7,9 +7,9 @@ class ProjectsList extends Component {
     return (
       <div className='ProjectsList'>
         <p>Projects will be soon...</p>
-        <p>If you have project, please{' '}
+        <p>If you have a project, please{' '}
           <Link className='Link' to='/project-registration'>Register</Link>
-          {' '}yours project(hobby).
+          {' '}your project(hobby).
         </p>
       </div>
     );

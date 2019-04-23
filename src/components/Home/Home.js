@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <div className='Home'>
       <p>This is place for yours hobby projects.</p>
-      <p>If you have account please
+      <p>If you have an account please
         <Link className='Link' to='/login'> Sing In</Link>
       </p>
-      <p>If you don't have account please
+      <p>If you don't have an account please
         <Link className='Link' to='/register'> Sing Up</Link>
       </p>
     </div>

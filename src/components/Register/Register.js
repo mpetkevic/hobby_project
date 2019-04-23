@@ -51,10 +51,10 @@ class Register extends Component {
             onChange={onInputChange}
           />
           <button type="submit">
-            {loading ? <Loader color={'#fff'} h={15} /> : 'Sign In'}
+            {loading ? <Loader color={'#fff'} h={15} /> : 'Sign Up'}
           </button>
         </form>
-        <p style={{fontSize: '12px'}}>If you don't have account, please{' '}
+        <p style={{fontSize: '12px'}}>If you don't have an account, please{' '}
           <Link className='Link' to='/login'>Sign In</Link>
         </p>
       </div>

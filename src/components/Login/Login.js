@@ -42,7 +42,7 @@ class Login extends Component {
             {loading ? <Loader color={'#fff'} h={15} /> : 'Sign In'}
           </button>
         </form>
-        <p style={{fontSize: '12px'}}>If you don't have account, please{' '}
+        <p style={{fontSize: '12px'}}>If you don't have an account, please{' '}
           <Link className='Link' to='/register'>Sign Up</Link>
         </p>
       </div>
