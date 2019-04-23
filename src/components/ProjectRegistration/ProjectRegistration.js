@@ -5,11 +5,13 @@ import {connect} from 'react-redux';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import * as actions from '../../actions/projectRegisterActions';
+import {onProjectRegisterFormSubmit} from '../../thunks/projectRegisterThunk';
 
 
 class ProjectRegistration extends Component {
   onFormSubmit = (e) => {
     e.preventDefault();
+    this.props.onFormSubmit(this.props.projectRegister, this.props.history)
   }
 
   render() {
@@ -67,6 +69,7 @@ class ProjectRegistration extends Component {
             selected={endDate}
             placeholderText="Select project end date"
             dateFormat="yyyy MM dd"
+            minDate={new Date()}
           />
           <button className="form-submit" type="submit">
             {loading ? <Loader color={'#fff'} h={15} /> : 'Sign In'}
@@ -86,5 +89,6 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => ({
   onInputChange: (e) => dispatch(actions.onInputChange(e)),
   onDateChange: (date) => dispatch(actions.onDateChange(date)),
+  onFormSubmit: (projectInfo, history)=>dispatch(onProjectRegisterFormSubmit(projectInfo,history))
 });
 export default connect(mapStateToProps,mapDispatchToProps)(ProjectRegistration);

@@ -14,3 +14,23 @@ export function onDateChange(date) {
     date
   }
 }
+
+export function onProjectRegisterFormLoading() {
+  return {
+    type: types.PROJECT_REGISTER_FORM_LOADING
+  }
+}
+
+export function onProjectRegisterFormError(error) {
+  return {
+    type: types.PROJECT_REGISTER_FORM_ERROR,
+    error
+  }
+}
+
+export function onProjectRegisterFormSubmit(projectInfo, history) {
+  return {
+    type: types.PROJECT_REGISTER_FORM_SUCCESS,
+    projectInfo
+  }
+}

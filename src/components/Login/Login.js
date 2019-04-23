@@ -17,8 +17,7 @@ class Login extends Component {
 
   render() {
     const { email, password, error, loading } = this.props.login
-    const { onInputChange } =this.props;
-    console.log("Error" + error);
+    const { onInputChange } = this.props;
     return (
       <div className='Login'>
         <h2>Please Sign In</h2>
