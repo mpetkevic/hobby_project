@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/hobby_project/static/js/runtime~main.0cacbdea.js"
   },
   {
-    "revision": "730d4282b156a1a0ee17",
-    "url": "/hobby_project/static/js/main.063b4dff.chunk.js"
+    "revision": "d13a688521218868221a",
+    "url": "/hobby_project/static/js/main.a7c46ac6.chunk.js"
   },
   {
     "revision": "ca2e7284ccd2a95cd4b8",
     "url": "/hobby_project/static/js/2.a6332be4.chunk.js"
   },
   {
-    "revision": "730d4282b156a1a0ee17",
+    "revision": "d13a688521218868221a",
     "url": "/hobby_project/static/css/main.ab226d95.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/hobby_project/static/css/2.09f1c2fd.chunk.css"
   },
   {
-    "revision": "8a8dc430d6bbcd5986443492109314c9",
+    "revision": "6b6c65cc00de40b3ab164b24fb005745",
     "url": "/hobby_project/index.html"
   }
 ];
