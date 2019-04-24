@@ -56,11 +56,13 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 650px) {
   .NavBar{
+    justify-content: space-between;
+    padding: 0 20px;
     .hamburger {
       display: inline-block;
       z-index: 120;
@@ -77,6 +79,7 @@
 
   .Hover {
     .Hover--Navigation {
+      padding-top: 80px;
       ul {
         padding: 0;
         display: flex;
@@ -84,6 +87,7 @@
         a {
           text-align: center;
           color: white;
+          font-size: 20px;
           padding: 10px 0;
 
           &:hover {
