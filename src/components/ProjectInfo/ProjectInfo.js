@@ -14,12 +14,11 @@ const ProjectInfo = (props) => {
     const endDate = moment(project.end_date).format('YYYY-MM-DD');
     return (
       <div className='Project' key={i}>
-        <h4 className='Project-title'>{project.title}</h4>
-        <span className='Project-span'>Hobby Author: {project.username}</span>
-        <span className='Project-span'>Hobby Description: {project.description}</span>
-        <span className='Project-span'>Hobby Amount: {project.amount}&euro;</span>
-        <span className='Project-span'>Hobby Contact: {project.email}</span>
-        <span className='Project-span'>Hobby EndDate: {endDate}</span>
+        <span className='Project-span'><span className="bold">Hobby Author:</span> {project.username}</span>
+        <span className='Project-span'><span className="bold">Hobby Description:</span> {project.description}</span>
+        <span className='Project-span'><span className="bold">Hobby Amount:</span> {project.amount}&euro;</span>
+        <span className='Project-span'><span className="bold">Hobby Contact:</span> {project.email}</span>
+        <span className='Project-span'><span className="bold">Hobby EndDate:</span> {endDate}</span>
       </div>
     )
   })

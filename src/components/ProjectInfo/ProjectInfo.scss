@@ -3,7 +3,11 @@
 
 
   .Project {
-
+    background-color: #bbbbbb;
+    border-radius: 4px;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
     &-title {
       text-align: center;
       font-size: 28px;
@@ -11,7 +15,7 @@
 
     &-span {
       display: block;
-      text-align: center;
+      text-align: left;
     }
   }
 
@@ -19,5 +23,13 @@
     display: block;
     text-align: center;
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .ProjectInfo {
+    .Project {
+      width: 90%;
+    }
   }
 }

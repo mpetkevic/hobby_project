@@ -21,13 +21,9 @@ class ProjectsList extends Component {
         const endDate = moment(project.end_date).format('YYYY-MM-DD');
         return (
           <div className='Project-item' key={i}>
-            <h4>{project.title}</h4>
-            <span className='Project-item__span'>Hobby Author: {project.username}</span>
-            <span className='Project-item__span'>Hobby Description: {project.description}</span>
-            <span className='Project-item__span'>Hobby Amount: {project.amount}&euro;</span>
-            <span className='Project-item__span'>Hobby Contact: {project.email}</span>
-            <span className='Project-item__span'>Hobby EndDate: {endDate}</span>
-            <Link className='Link' to={`/project/${project.id}`}>See more info</Link>
+            <span className='Project-item__span'><span className="bold">Hobby Author:</span> {project.username}</span>
+            <span className='Project-item__span'><span className="bold">Hobby Description:</span> {project.description}</span>
+            <Link className='Link Info' to={`/project/${project.id}`}>See more info</Link>
           </div>
         )
       })
