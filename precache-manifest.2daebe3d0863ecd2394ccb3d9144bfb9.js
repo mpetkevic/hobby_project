@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/hobby_project/static/js/runtime~main.0cacbdea.js"
   },
   {
-    "revision": "353953a7747cfd2c6c66",
-    "url": "/hobby_project/static/js/main.6850f738.chunk.js"
+    "revision": "0df3ba12cc7efc4056da",
+    "url": "/hobby_project/static/js/main.123971cf.chunk.js"
   },
   {
-    "revision": "e2c5b4658d139f453dae",
-    "url": "/hobby_project/static/js/2.9b950d14.chunk.js"
+    "revision": "eb9233992325005dceba",
+    "url": "/hobby_project/static/js/2.a692b8ca.chunk.js"
   },
   {
-    "revision": "353953a7747cfd2c6c66",
+    "revision": "0df3ba12cc7efc4056da",
     "url": "/hobby_project/static/css/main.46b63bb6.chunk.css"
   },
   {
-    "revision": "e2c5b4658d139f453dae",
+    "revision": "eb9233992325005dceba",
     "url": "/hobby_project/static/css/2.2e7af592.chunk.css"
   },
   {
-    "revision": "2d4fd0b7b870c6efb76e78cfe83fc62d",
+    "revision": "290e95971585f9a2df28146dd740bd8f",
     "url": "/hobby_project/index.html"
   }
 ];
