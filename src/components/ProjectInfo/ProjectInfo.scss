@@ -1,0 +1,23 @@
+.ProjectInfo {
+  padding: 20px;
+
+
+  .Project {
+
+    &-title {
+      text-align: center;
+      font-size: 28px;
+    }
+
+    &-span {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .Back {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+}

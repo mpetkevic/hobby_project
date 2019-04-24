@@ -1,6 +1,7 @@
 import React from 'react';
-import {connect} from 'react-redux'
+import {connect} from 'react-redux';
 import {Link} from "react-router-dom";
+import './ProjectInfo.scss';
 
 const ProjectInfo = (props) => {
   const projectInfo = props.projects.filter(project => {
@@ -10,19 +11,19 @@ const ProjectInfo = (props) => {
     return null;
   }).map((project, i) => {
     return (
-      <div className='Project-item' key={i}>
-        <h4>{project.title}</h4>
-        <span className='Project-item__span'>Hobby Author: {project.username}</span>
-        <span className='Project-item__span'>Hobby Description: {project.description}</span>
-        <span className='Project-item__span'>Hobby Amount: {project.amount}&euro;</span>
-        <span className='Project-item__span'>Hobby Contact: {project.email}</span>
+      <div className='Project' key={i}>
+        <h4 className='Project-title'>{project.title}</h4>
+        <span className='Project-span'>Hobby Author: {project.username}</span>
+        <span className='Project-span'>Hobby Description: {project.description}</span>
+        <span className='Project-span'>Hobby Amount: {project.amount}&euro;</span>
+        <span className='Project-span'>Hobby Contact: {project.email}</span>
       </div>
     )
   })
   return (
-    <div>
-      <Link className='Link' to='/projects'>Back to projects</Link>
+    <div className='ProjectInfo'>
       {projectInfo}
+      <Link className='Link Back' to='/projects'>Back to projects</Link>
     </div>
   );
 };
