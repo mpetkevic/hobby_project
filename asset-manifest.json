@@ -1,15 +1,15 @@
 {
-  "main.css": "/hobby_project/static/css/main.46b63bb6.chunk.css",
-  "main.js": "/hobby_project/static/js/main.123971cf.chunk.js",
-  "main.js.map": "/hobby_project/static/js/main.123971cf.chunk.js.map",
+  "main.css": "/hobby_project/static/css/main.98573c61.chunk.css",
+  "main.js": "/hobby_project/static/js/main.e53790aa.chunk.js",
+  "main.js.map": "/hobby_project/static/js/main.e53790aa.chunk.js.map",
   "runtime~main.js": "/hobby_project/static/js/runtime~main.0cacbdea.js",
   "runtime~main.js.map": "/hobby_project/static/js/runtime~main.0cacbdea.js.map",
   "static/css/2.2e7af592.chunk.css": "/hobby_project/static/css/2.2e7af592.chunk.css",
   "static/js/2.a692b8ca.chunk.js": "/hobby_project/static/js/2.a692b8ca.chunk.js",
   "static/js/2.a692b8ca.chunk.js.map": "/hobby_project/static/js/2.a692b8ca.chunk.js.map",
   "index.html": "/hobby_project/index.html",
-  "precache-manifest.2daebe3d0863ecd2394ccb3d9144bfb9.js": "/hobby_project/precache-manifest.2daebe3d0863ecd2394ccb3d9144bfb9.js",
+  "precache-manifest.82bc48f27031b35e31c979fc127a966f.js": "/hobby_project/precache-manifest.82bc48f27031b35e31c979fc127a966f.js",
   "service-worker.js": "/hobby_project/service-worker.js",
   "static/css/2.2e7af592.chunk.css.map": "/hobby_project/static/css/2.2e7af592.chunk.css.map",
-  "static/css/main.46b63bb6.chunk.css.map": "/hobby_project/static/css/main.46b63bb6.chunk.css.map"
+  "static/css/main.98573c61.chunk.css.map": "/hobby_project/static/css/main.98573c61.chunk.css.map"
 }
