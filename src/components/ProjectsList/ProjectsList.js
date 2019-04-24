@@ -19,7 +19,6 @@ class ProjectsList extends Component {
     if(projects.length !== 0) {
       projectsList = projects && projects.map((project, i) => {
         const endDate = moment(project.end_date).format('YYYY-MM-DD');
-        console.log(endDate)
         return (
           <div className='Project-item' key={i}>
             <h4>{project.title}</h4>
