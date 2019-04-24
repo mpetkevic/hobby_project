@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {Link} from "react-router-dom";
 import './ProjectInfo.scss';
+import moment from 'moment';
 
 const ProjectInfo = (props) => {
   const projectInfo = props.projects.filter(project => {
@@ -10,6 +11,7 @@ const ProjectInfo = (props) => {
     }
     return null;
   }).map((project, i) => {
+    const endDate = moment(project.end_date).format('YYYY-MM-DD');
     return (
       <div className='Project' key={i}>
         <h4 className='Project-title'>{project.title}</h4>
@@ -17,6 +19,7 @@ const ProjectInfo = (props) => {
         <span className='Project-span'>Hobby Description: {project.description}</span>
         <span className='Project-span'>Hobby Amount: {project.amount}&euro;</span>
         <span className='Project-span'>Hobby Contact: {project.email}</span>
+        <span className='Project-span'>Hobby EndDate: {endDate}</span>
       </div>
     )
   })

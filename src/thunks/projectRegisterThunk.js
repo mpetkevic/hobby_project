@@ -16,7 +16,7 @@ export const onProjectRegisterFormSubmit = (projectInfo, history) => (dispatch) 
     "amount": projectInfo.amount,
     "email": projectInfo.email,
     "username": projectInfo.username,
-    "date": formattedDate
+    "endDate": formattedDate
   });
   axios.post('https://hobby-api.herokuapp.com/api',json)
     .then(res=>{

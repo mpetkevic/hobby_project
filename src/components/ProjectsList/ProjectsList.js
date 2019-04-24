@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import './ProjectsList.scss';
 import {setProjectList} from '../../thunks/getProjects';
 import {connect} from "react-redux";
+import moment from 'moment';
 
 class ProjectsList extends Component {
 
@@ -13,9 +14,12 @@ class ProjectsList extends Component {
 
   render() {
     const {projects} =this.props;
+
     let projectsList;
     if(projects.length !== 0) {
       projectsList = projects && projects.map((project, i) => {
+        const endDate = moment(project.end_date).format('YYYY-MM-DD');
+        console.log(endDate)
         return (
           <div className='Project-item' key={i}>
             <h4>{project.title}</h4>
@@ -23,6 +27,7 @@ class ProjectsList extends Component {
             <span className='Project-item__span'>Hobby Description: {project.description}</span>
             <span className='Project-item__span'>Hobby Amount: {project.amount}&euro;</span>
             <span className='Project-item__span'>Hobby Contact: {project.email}</span>
+            <span className='Project-item__span'>Hobby EndDate: {endDate}</span>
             <Link className='Link' to={`/project/${project.id}`}>See more info</Link>
           </div>
         )
