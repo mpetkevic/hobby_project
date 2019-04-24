@@ -16,7 +16,7 @@ class NavBar extends Component {
     const {isActive} = this.state;
     return (
       <div className='NavBar'>
-        <Logo/>
+        <Link className='Logo-link' to='/'><Logo/></Link>
         <nav className='Navigation'>
           <ul>
             <NavLink exact to='/' className='NavBar-link' activeClassName='active-link'>Home</NavLink>
